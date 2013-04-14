@@ -1,0 +1,18 @@
+h1. Overview
+
+* Fewer changes from 1.9 to 2.0, than from 1.8 to 1.9
+* 100% backwards compatible with Ruby 1.9.3
+* Was released on February 24 2013 - Ruby's 20th birthday
+
+h1. Infrastructure changes
+
+* Faster require
+** Large Rails apps loads 2.2 times faster
+** Could make a big difference in development mode
+
+* Improved garbage collection
+** Bitmap marking
+** Reduced memory consumption
+
+* New regular expression engine
+** Implements advanced features from Perl 5.10+
